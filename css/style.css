@@ -1,0 +1,42 @@
+body{
+    margin: 0px auto;
+}
+
+#header{
+    display: flex;
+}
+
+#logo{
+    width: 50%;
+    margin-left: 60px;
+}
+
+#header-right{
+    width: 50%;
+    text-align: right;
+    margin-right: 60px;
+}
+
+#nav{
+    background-color: #b9e4ab;
+    height: 50px;
+}
+
+#nav ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#nav ul li{
+    widows: 80px;
+}
+
+#nav ul li a{
+    text-decoration: none;
+    color: aqua;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
